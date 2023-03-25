@@ -158,16 +158,6 @@ body {
   max-width: 1044px;
 
   color: #1e1f1f;
-  &:first-child::after {
-    content: "";
-    width: 69px;
-    height: 69px;
-    background-image: url(../assets/vectors/leaves.svg);
-    position: absolute;
-    top: -26px;
-    right: -64px;
-    background-size: contain;
-  }
 }
 .subheading {
   font-style: normal;
