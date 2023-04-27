@@ -831,8 +831,8 @@ li {
     background-image: none;
     padding: 0;
     align-items: center;
-    text-align:center;
-    min-height:initial;
+    text-align: center;
+    min-height: initial;
 
     &__mobile-img {
       display: block;
@@ -848,7 +848,7 @@ li {
     letter-spacing: -0.01em;
     max-width: none;
     color: #1e1f1f;
-    
+    text-align: center;
   }
   .block-text {
     font-weight: 400;
@@ -880,6 +880,4 @@ li {
       width: 100%;
     }
   }
-
-  }
-
+}

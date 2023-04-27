@@ -1128,6 +1128,7 @@ body {
     background-image: none;
     padding: 0;
     align-items: center;
+    min-height: initial;
   }
   .block__mobile-img {
     display: block;
@@ -1141,6 +1142,7 @@ body {
     letter-spacing: -0.01em;
     max-width: none;
     color: #1e1f1f;
+    text-align:center;
   }
   .block-text {
     font-weight: 400;
