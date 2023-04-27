@@ -831,6 +831,8 @@ li {
     background-image: none;
     padding: 0;
     align-items: center;
+    text-align:center;
+    min-height:initial;
 
     &__mobile-img {
       display: block;
@@ -846,6 +848,7 @@ li {
     letter-spacing: -0.01em;
     max-width: none;
     color: #1e1f1f;
+    
   }
   .block-text {
     font-weight: 400;
@@ -857,4 +860,26 @@ li {
     color: #1e1f1f;
     text-align: center;
   }
-}
+  .block:nth-child(2) {
+    background-image: none;
+    padding: 0;
+    align-items: center;
+
+    &__mobile-img {
+      display: block;
+      width: 100%;
+    }
+  }
+  .block:nth-child(3) {
+    background-image: none;
+    padding: 0;
+    align-items: center;
+
+    &__mobile-img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  }
+
